@@ -14,7 +14,7 @@ jobs:
       - name: Update CSV with current month
         run: |
           MONTH=$(date +"%B %Y")
-          printf "Type,Name,AdCustomizer DataType,AdCustomizer AttributeValue\r\nAdcustomizer Attribute,year month,Text,$MONTH\r\n" > customizer.csv
+          printf "Attribute,Data type,Account value,Campaign,Ad group,Keyword\nyear month,Text,$MONTH,,,\n" > customizer.csv
 
       - name: Commit and push
         run: |
