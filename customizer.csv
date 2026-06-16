@@ -1,2 +1,2 @@
-Type,Name,AdCustomizer DataType,AdCustomizer AttributeValue
-Adcustomizer Attribute,year month,Text,June 2026
+Attribute,Data type,Account value,Campaign,Ad group,Keyword
+year month,Text,June 2026,,,
